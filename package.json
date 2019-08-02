@@ -1,0 +1,25 @@
+{
+  "name": "instagram-clone-ui",
+  "version": "1.0.0",
+  "description": "UI for Instagram Clone project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hairedfox/instagram-clone-ui.git"
+  },
+  "keywords": [
+    "instagram",
+    "clone-app",
+    "react",
+    "nextjs"
+  ],
+  "author": "Build Great Things Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hairedfox/instagram-clone-ui/issues"
+  },
+  "homepage": "https://github.com/hairedfox/instagram-clone-ui#readme"
+}
