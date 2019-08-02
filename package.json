@@ -4,7 +4,10 @@
   "description": "UI for Instagram Clone project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/hairedfox/instagram-clone-ui/issues"
   },
-  "homepage": "https://github.com/hairedfox/instagram-clone-ui#readme"
+  "homepage": "https://github.com/hairedfox/instagram-clone-ui#readme",
+  "dependencies": {
+    "next": "^9.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
