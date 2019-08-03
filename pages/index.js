@@ -1,3 +1,4 @@
+import React from "react"
 import "../styles/scss/styles.scss"
 
 function Home () {

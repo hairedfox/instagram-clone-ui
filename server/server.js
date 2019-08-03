@@ -6,20 +6,20 @@ const app = next({ dev })
 const handle = app.getRequestHandler()
 
 app.prepare()
-.then(() => {
+  .then(() => {
     const server = express()
 
     //define router here!
     server.get('*', (req, res) => {
-        return handle(req, res)
+      return handle(req, res)
     })
 
     server.listen(8000, (err) => {
-        if (err) throw err
-        console.log('> Ready on http://localhost:8000')
+      if (err) throw err
+      console.log('> Ready on http://localhost:8000')
     })
-})
-.catch((ex) => {
+  })
+  .catch((ex) => {
     console.error(ex.stack)
     process.exit(1)
-})
+  })

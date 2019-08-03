@@ -1,0 +1,23 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+  },
+  "env": {
+    "node" : true,
+    "browser": true,
+    "es6": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    // add some rule
+    "indent": ["error", 2],
+    "semi": [2, "never"],
+    "eol-last": ["error", "always"]
+  }
+}
